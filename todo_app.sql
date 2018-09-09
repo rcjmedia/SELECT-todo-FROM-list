@@ -69,7 +69,7 @@ ORDER BY created_at DESC; -- PASS
 -- create a new task
 -- title = 'mistake 1'
 -- description = 'a test entry'
-INSERT INTO basks
+INSERT INTO tasks
 VALUES(default, 'mistake 1', 'a test entry', now(), now(), NULL); -- PASS
 
 --	create a new task
